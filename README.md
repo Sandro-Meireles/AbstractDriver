@@ -21,4 +21,8 @@ class MyDriver(AbstractDriver):
 
 ```
 
+## Goal
+
+my goal is to transform this project into a framework specialized in web bots and data scraping, i intend to merge ```beautifulsoup4``` and ```selenium``` in an abstract way, both are great libraries and joining them would result in a very powerful framework
+
 By: SandroSF
