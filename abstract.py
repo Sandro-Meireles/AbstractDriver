@@ -34,7 +34,7 @@ class AbstractDriver:
 
     def start(self):
         self.driver = webdriver.Chrome(ChromeDriverManager().install())
-        self.driver.get(self.page + self.url_sufix if self.url_sufix else self.page)
+        self.driver.get(self.page + self.url_sufix)
     
     def get(self, page):
         self.driver.get(page)
